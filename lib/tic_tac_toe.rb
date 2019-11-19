@@ -96,7 +96,7 @@ end
       if valid_move?(index)
           current_player
       #  binding.pry
-        move(index)
+        move(index, current_player)
         display_board
       else
         turn
