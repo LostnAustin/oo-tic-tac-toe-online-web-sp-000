@@ -91,10 +91,9 @@ end
 
 #convert input to index
     index = input_to_index(user_input)
-
 #if index is valid, make the move. ask for input again after failed validation
       if valid_move?(index)
-          current_player
+
       #  binding.pry
         move(index, current_player)
         display_board
